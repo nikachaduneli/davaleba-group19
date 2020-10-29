@@ -4,7 +4,7 @@ fun main(){
 
     println(aPoint.equals(bPoint))
     println(aPoint)
-    println(aPoint.move())
+    //println(aPoint.move())
 }
 
 class Point(x:Float, y:Float ){
@@ -25,13 +25,13 @@ class Point(x:Float, y:Float ){
         return "$xPos,$yPos"
     }
 
-    fun move():String{
+    /*fun move():String{
         val xx = -xPos
         val yy = -yPos
         return"$xx,$yy"
     }
 
-
+*/
 
 
 }
